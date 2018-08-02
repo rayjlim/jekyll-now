@@ -9,7 +9,7 @@ published: true
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-  "content"      : `{{ post.content | escape}}`,
+  "content"      : "{{ post.content | escape | newline_to_br}}",
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
