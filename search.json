@@ -6,7 +6,7 @@ published: true
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
+      "category" : "{{ post.categories }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
   "content"      : "{{ post.content | url_encode }}",
