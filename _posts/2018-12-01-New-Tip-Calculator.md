@@ -13,3 +13,5 @@ Which allows for each party to enter their subtotals.
 
 also enter the net total, to figure out the tipped amount
 for comparison with summed total of each
+
+In the end, found that I could make a google docs spreadsheet to handle it.
