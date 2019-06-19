@@ -2,7 +2,7 @@
 published: true
 layout: post
 ---
-## New Tip Calculator
+# New Tip Calculator
 
 Out to dinner with folks and splitting the bill is difficult. Especially when it's not an even split.
 Came up with the idea to create a web app that does the formula I use.
